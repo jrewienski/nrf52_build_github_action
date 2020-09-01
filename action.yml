@@ -1,0 +1,18 @@
+# action name
+name: 'nrf52_build'
+
+# action author
+author: 'Jakub Rewieński <jrewienski@gmail.com>'
+
+# action description
+description: 'Builds a nRF52 from a Makefile.'
+
+# action runner (Nordic Toolchain Docker Environment from allesrebel/nrf52-dev-env)
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+
+# branding
+branding:
+    icon: terminal
+    color: green
